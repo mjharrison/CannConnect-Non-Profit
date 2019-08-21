@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
     <title>Cannconnect Mapbox Doctor Test</title>
   
@@ -24,14 +23,20 @@
     -->
     
     <!-- Website body	-->
+    <style href=style.css>
+    
   <img src="stetho.png" style='width: 400px; height: 300px;'> 
+    
   <h1>Medicinal Help in your area</h1>
     <p id="message">Please browse the map below</p>
+      
+      </style>
   <!-- end Website body	-->
     
     
   <!-- MApBOX API	-->  
-    <div id='map' style='width: 400px; height: 300px;'></div>
+    
+    <div id='map' style='width: 100px; height: 300px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoibWpoYXJyaXNvbjkwIiwiYSI6ImNqemo0ZnU1YjA2N3kzbnBlaTlpNmIwMTEifQ.E8NlOBG-LKemB3NSSYwm6Q';
 var map = new mapboxgl.Map({
