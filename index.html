@@ -20,7 +20,7 @@ This is a simple test to try to run a map with noted doctors around Asutralia.
     <style href="style.css">
   <img src="stetho.png" style='width: 100px; height: 200px;'> 
     
-  <h1>Medicinal Help in your area</h1>
+  Medicinal Help in Australia
     <p id="message">Please browse the map below</p>
       </style>
      
@@ -29,7 +29,7 @@ This is a simple test to try to run a map with noted doctors around Asutralia.
     
   <!-- MApBOX API	-->  
     
-    <div id='map' style='width: 100%; height: 300px;'></div>
+    <div id='map' style='width: 100%; height: 500px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoibWpoYXJyaXNvbjkwIiwiYSI6ImNqemo0ZnU1YjA2N3kzbnBlaTlpNmIwMTEifQ.E8NlOBG-LKemB3NSSYwm6Q';
 var map = new mapboxgl.Map({
@@ -55,8 +55,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWpoYXJyaXNvbjkwIiwiYSI6ImNqemo0ZnU1YjA2N3kzb
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
-center: [-77.04, 38.907],
-zoom: 11.15
+center: country australia,
+zoom: 100
 });
  
 map.on('load', function () {
